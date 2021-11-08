@@ -34,10 +34,6 @@
     background-size: cover;
 }
 
-.about {
-    height: 300px;
-}
-
 .about h1 {
     font-family: "SF Pro Display", sans-serif;
 }
@@ -47,18 +43,30 @@
 }
 
 .featureHeading {
-    height: 800px;
+    height: 820px;
 }
 
 .featureImage img {
     position: absolute;
     z-index: 2;
     right: 0;
-    margin-top: -58%;
-    width: 630px;
+    margin-top: -60%;
+    width: 680px;
 }
 
 .whitespace {
     width: 100px;
     height: 100%;
+}
+
+@media screen and (max-width:768px) {
+    .whitespace {
+        display: none;
+    }
+    .featureImage img {
+        margin-top: 112%;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
