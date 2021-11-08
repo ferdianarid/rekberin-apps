@@ -3,3 +3,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* manual setting */
+
+* {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+
+.background {
+    background-image: url("../images/backgroundImages.png");
+    background-size: cover;
+}
+
+.navbar {
+    color: #000;
+}
+
+.headerImages {
+    /* background-image: url("../images/header.png"); */
+    background-size: cover;
+}
