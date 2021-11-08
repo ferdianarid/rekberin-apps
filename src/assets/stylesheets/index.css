@@ -21,6 +21,10 @@
 }
 
 .headerImages {
-    /* background-image: url("../images/header.png"); */
     background-size: cover;
+}
+
+.title-heading {
+    font-family: "SF Pro Display";
+    font-weight: 800;
 }
