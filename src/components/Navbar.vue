@@ -32,7 +32,7 @@
                             </div>
                             <div>
                             <!-- Download Button -->
-                            <a href="#" class="no-underline inline-block text-sm px-4 py-2 leading-none border rounded text-green-800 border-green-600 hover:border-transparent hover:bg-green-800 hover:text-white mt-4 sm:mt-0">Register</a>
+                            <a href="#" class="no-underline inline-block text-sm px-4 py-2 leading-none bg-brand border rounded text-white  hover:border-transparent hover:bg-green-600 hover:text-white mt-4 sm:mt-0">Daftar</a>
                             </div>
                      </div>
                      </nav>

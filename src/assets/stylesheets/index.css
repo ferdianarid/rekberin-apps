@@ -11,6 +11,14 @@
     margin: 0;
 }
 
+.text-color-primary {
+    color: #5AB88A
+}
+
+.bg-brand {
+    background-color: #5AB88A;
+}
+
 .background {
     background-image: url("../images/backgroundImages.png");
     height: 750px;
