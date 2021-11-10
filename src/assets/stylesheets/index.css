@@ -59,6 +59,10 @@
     height: 100%;
 }
 
+.register {
+    height: 400px;
+}
+
 @media screen and (max-width:768px) {
     .whitespace {
         display: none;
@@ -68,5 +72,13 @@
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
+    }
+    .banner img {
+        height: 250px;
+        object-fit: cover;
+        background-position: center;
+    }
+    .register {
+        height: auto;
     }
 }

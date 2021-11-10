@@ -167,9 +167,42 @@
                      <p class="text-green-600 font-bold pt-1 md:pt-28">#5 Barangpun sampai.</p>
                      <h3 class="text-2xl font-bold pt-3 text-left md:text-3xl md:pt-4 md:font-bold md:leading-tight">Pembeli menerima barang dengan baik.</h3>
                      <!-- Sub Heading -->
-                     <p class=" pt-4 text-1xl text-left font-medium md:pt-6 md:text-2xl md:pr-6 md:leading-snug">Detail pesanan telah selesai dan dapat dilanjutkan ke proses pembayaran.</p>
+                     <p class=" pt-4 text-1xl text-left font-medium md:pt-6 md:text-2xl md:pr-6 md:leading-snug">Setelah pembeli mengkonfirmasi menerima barang uangpun dikirimkan kepada penjual.</p>
               </div>
        </div>
+
+       <!-- Register Section -->
+              <div class="mt-20 py-16 register w-full bg-green-800">
+                     <h1 class="text-4xl md:px-24 md:pt-10 text-center font-bold text-yellow-200 md:text-5xl md:font-extrabold md:text-yellow-200">Mulai Bisnis Anda Sekarang</h1>
+                     <p class="pt-4 text-white text-center text-1xl md:text-2xl md:leading-7 md:pt-3">Daftar sekarang juga.</p>
+                     <div class="text-center mx-auto">
+                     <button class="mt-5 text-center px-14 bg-white text-green-800 py-2 md:mt-10 rounded-md md:py-3 md:px-16 md:bg-white md:rounded-md">
+                            <p class="text-lg text-green-800 font-bold">Daftar</p>
+                     </button>
+                     </div>
+              </div>
+
+              <!-- Footer Section -->
+              <div class="footer w-full h-auto">
+                     <div class="footerList flex justify-between w-2/3 mx-auto pt-10">
+                            <a href="">Bantuan</a>
+                            <a href="">Tutorial</a>
+                            <a href="">Daftar</a>
+                            <a href="">Syarat dan Ketentuan</a>
+                            <a href="">Kebijakan Privasi</a>
+                     </div>
+                     <div class="social flex justify-around w-1/5 mx-auto pt-8 pb-10">
+                            <a href="">
+                                   <img src="../assets/images/instagram.png" alt="instagram" class="h-10">
+                            </a>
+                            <a href="">
+                                   <img src="../assets/images/twitter.png" alt="twitter" class="h-10">
+                            </a>
+                            <a href="">
+                                   <img src="../assets/images/whatsapp.png" alt="whatsapp" class="h-10">
+                            </a>
+                     </div>
+              </div>
 
 </div>
 </template>
