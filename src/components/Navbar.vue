@@ -57,6 +57,6 @@ export default {
 
 <style>
 .brand-font {
-       font-family: "SF Pro Display", sans-serif;
+       font-family: "Open Sans", sans-serif;
 }
 </style>

@@ -7,7 +7,7 @@
 /* manual setting */
 
 * {
-    font-family: "SF Pro Display", sans-serif;
+    font-family: "Open Sans", sans-serif;
     margin: 0;
 }
 
@@ -21,45 +21,32 @@
 
 .background {
     background-image: url("../images/backgroundImages.png");
-    height: 750px;
+    height: 760px;
     background-size: cover;
-}
-
-.navbar {
-    color: #000;
 }
 
 .headerImages {
     background-size: cover;
 }
 
-.title-heading {
-    font-family: "SF Pro Display";
-    font-weight: 800;
+.headerImages img {
+    height: 500px;
 }
 
 .banner {
     background-size: cover;
 }
 
-.about h1 {
-    font-family: "SF Pro Display", sans-serif;
-}
-
-.primaryFont {
-    font-family: "SF Pro Display", sans-serif;
-}
-
-.featureHeading {
-    height: 820px;
-}
-
 .featureImage img {
-    position: absolute;
+    position: inherit;
     z-index: 2;
-    right: 0;
-    margin-top: -60%;
-    width: 680px;
+    margin-top: -750px;
+    width: 750px;
+    height: 95%;
+}
+
+.featureImage {
+    height: 780px;
 }
 
 .whitespace {
@@ -67,9 +54,12 @@
     height: 100%;
 }
 
-.register {
-    height: 400px;
+#container {
+    max-width: 1440px;
+    margin: auto;
 }
+
+@media screen and (max-width: 1022px) {}
 
 @media screen and (max-width:768px) {
     .whitespace {
