@@ -44,7 +44,7 @@
        </div>
 
        <!-- Feature Section -->
-       <div class="feature w-full flex">
+       <div class="feature w-full flex md:flex-row flex-col">
               <div class="featureHeading text-center w-full px-8 md:w-1/2 md:pl-24 md:pb-24">
 
               <!-- Heading -->
@@ -55,7 +55,7 @@
                      <p class="pt-4 text-1xl text-left font-normal md:pt-6 md:text-xl md:pr-6 md:leading-snug text-gray-600">Kami akan membantu anda dengan berbagai fitur yang kami berikan.</p>
 
                      <!-- Feature Points -->
-                     <div class="mt-6">
+                     <div class="mt-6 pb-16">
                             <!-- Items -->
                             <div class="flex h-6 mt-2">
                                    <img src="../assets/images/checklist.png" alt="checklist">
@@ -87,7 +87,7 @@
        </div>
 
        <!-- Benefits Section -->
-       <div class="benefits w-full mt-28 pt-10 mb-24 md:w-full md:mt-20 md:mb-20">
+       <div class="benefits w-full mt-2 mb-24 md:w-full md:mt-20 md:mb-20">
               <h1 class="primaryFont text-4xl font-bold text-green-700 text-center">Manfaat</h1>
               <div class="benefitList mt-7  mx-3 flex md:justify-between md:w-2/3 md:mx-auto">
               <!-- Items -->
@@ -184,21 +184,10 @@
               </div>
        </div>
 
-       <!-- Register Section -->
-              <div class="mt-20 py-16 register w-full bg-green-800">
-                     <h1 class="text-4xl md:px-24 md:pt-10 text-center font-bold text-yellow-200 md:text-5xl md:font-extrabold md:text-yellow-200">Mulai Bisnis Anda Sekarang</h1>
-                     <p class="pt-4 text-white text-center text-1xl md:text-2xl md:leading-7 md:pt-3">Daftar sekarang juga.</p>
-                     <div class="text-center mx-auto">
-                     <button class="mt-5 text-center px-14 bg-white text-green-800 py-2 md:mt-10 rounded-md md:py-3 md:px-16 md:bg-white md:rounded-md">
-                            <p class="text-lg text-green-800 font-bold">Daftar</p>
-                     </button>
-                     </div>
-              </div>
-
-              <!-- Frequently Asked Question -->
+       <!-- Frequently Asked Question -->
               <!-- FAQ -->
               <div id="container">
-                     <div class="FAQ md:flex">
+                     <div class="FAQ md:flex mt-16">
                             <div class="row md:w-1/2 md:pl-11 pl-6 md:pr-32 pr-6">
                             <h1 class="md:text-6xl text-5xl md:text-left text-center font-bold md:pb-8 pb-5">FAQ</h1>
                             <p class="md:text-3xl text-2xl font-normal pt-6">Apakah anda memiliki masalah dalam transaksi atau memiliki pertanyaan?</p>
@@ -251,6 +240,19 @@
                             </div>
                             </div>
                      </div>
+
+       <!-- Register Section -->
+              <div class="mt-20 py-16 register w-full bg-green-800">
+                     <h1 class="text-4xl md:px-24 md:pt-10 text-center font-bold text-yellow-200 md:text-5xl md:font-extrabold md:text-yellow-200">Mulai Bisnis Anda Sekarang</h1>
+                     <p class="pt-4 text-white text-center text-1xl md:text-2xl md:leading-7 md:pt-3">Daftar sekarang juga.</p>
+                     <div class="text-center mx-auto">
+                     <button class="mt-5 text-center px-14 bg-white text-green-800 py-2 md:mt-10 rounded-md md:py-3 md:px-16 md:bg-white md:rounded-md">
+                            <p class="text-lg text-green-800 font-bold">Daftar</p>
+                     </button>
+                     </div>
+              </div>
+
+              
               </div>
 
               <!-- Footer Section -->

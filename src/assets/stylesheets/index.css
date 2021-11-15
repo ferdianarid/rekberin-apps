@@ -79,4 +79,19 @@
     .register {
         height: auto;
     }
+    .headerImages img {
+        height: 400px;
+    }
+    .featureImage img {
+        height: auto;
+        margin: auto;
+        margin-top: 0px;
+        width: 100%;
+    }
+    .featureImage {
+        background: transparent;
+        padding: 20px;
+        height: auto;
+        margin-bottom: 50px;
+    }
 }
