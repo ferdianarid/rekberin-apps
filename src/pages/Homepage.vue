@@ -82,7 +82,6 @@
               <!-- Feature Images -->
               <div class="featureImage md:w-1/2 bg-green-700">
               <div class="whitespace w-full md:w-1/3 md:bg-white"></div>
-                     <img class="md:pl-8" src="../assets/images/transaction.png" alt="transaction">
               </div>
        </div>
 
