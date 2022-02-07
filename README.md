@@ -1,1 +1,2 @@
-# rekberin-apps
+# Rekberin App
+Landing page about reberin showcase.
